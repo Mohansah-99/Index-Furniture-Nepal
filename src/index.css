@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --color-warm-ivory: #F7F4EE;
+  --color-soft-cream: #EFE9DE;
+  --color-warm-beige: #D8C9B5;
+  --color-natural-tan: #C49A68;
+  --color-terracotta: #D9894B;
+  --color-terracotta-dark: #C3763A;
+  --color-walnut: #4A3325;
+  --color-walnut-dark: #372418;
+  --color-deep-charcoal: #202321;
+  --color-warm-gray: #77736D;
+}
+
+/* Custom refined transitions and typography */
+.font-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-ui {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Subtle image hover zoom */
+.img-zoom {
+  transition: transform 0.45s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.group:hover .img-zoom {
+  transform: scale(1.04);
+}
+
+/* Soft card lift */
+.card-lift {
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(32, 35, 33, 0.08);
+}
+

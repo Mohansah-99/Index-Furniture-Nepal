@@ -1,0 +1,6 @@
+{
+  "name": "Index Furniture Nepal",
+  "description": "Thoughtfully designed furniture for beautiful, comfortable homes across Nepal. Discover curated living, dining, bedroom collections and book personal interior design consultations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
